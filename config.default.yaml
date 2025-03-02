@@ -715,7 +715,7 @@ solving:
 
   solver:
     name: highs
-    options: default
+    options: highs-default
 
   solver_options:
     highs-default:
