@@ -6,7 +6,7 @@ name: pypsa-earth
 channels:
 - conda-forge
 - bioconda
-- gurobi
+
 dependencies:
 - python>=3.8
 - pip
@@ -83,7 +83,9 @@ dependencies:
 
 # Default solver for tests (required for CI)
 - glpk
-- gurobi
+- highs
+- coincbc
+
 
 - pip:
   - git+https://github.com/davide-f/google-drive-downloader@master  # google drive with fix for virus scan
